@@ -10,6 +10,18 @@ The Quote Generator is a web application that serves up random quotes to users, 
 - [GitHub Pages](https://mahir33.github.io/p-quote-generator/)
 - [Author: Mahir33](https://github.com/Mahir33)
 
+### How to Use
+
+1. **Viewing a Quote:** Upon loading the application, users are presented with a basic quote. A new random quote can be displayed by clicking the "New Quote" button.
+2. **Sharing a Quote:** Users can share a quote on Twitter by clicking the Twitter icon button. This action opens Twitter in a new tab, with a pre-filled tweet containing the quote and its author, ready for sharing.
+
+### Lighthouse Score
+
+- **Performance**: 99
+- **Accessibility**: 100
+- **Best Practices**: 78
+- **SEO**: 100
+
 ### Technologies Used
 
 The project leverages several key technologies:
@@ -43,8 +55,3 @@ The application utilizes external resources for enhanced functionality and desig
 - **Font Awesome:** For adding icons to the application, enhancing the visual appeal.
 - **Google Favicon:** Utilizes Google's favicon service for fetching a favicon for the application, adding a professional touch to the tab icon.
 - **CDNJS:** Serves the Font Awesome CSS file, ensuring icons are up-to-date and accessible.
-
-### How to Use
-
-1. **Viewing a Quote:** Upon loading the application, users are presented with a basic quote. A new random quote can be displayed by clicking the "New Quote" button.
-2. **Sharing a Quote:** Users can share a quote on Twitter by clicking the Twitter icon button. This action opens Twitter in a new tab, with a pre-filled tweet containing the quote and its author, ready for sharing.

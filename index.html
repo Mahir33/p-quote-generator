@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="shortcut icon"
-      href="https://www.google.com/s2/favicons?domain=css-tricks.com"
-      type="image/x-icon"
+    <meta
+      name="description"
+      content="This App will make you inspired and let you share quotes on Twitter with only one click!"
     />
+    <title>Document</title>
+    <!-- Better Lighthouse Score: -->
+    <link rel="shortcut icon" href="./1f31e.svg" type="image/x-icon" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -31,6 +33,7 @@
       </div>
       <!-- Buttons -->
       <div class="quote-container__buttons">
+        <!-- Twitter btn -->
         <button
           class="quote-container__buttons__tweet"
           id="twitter"
@@ -38,6 +41,7 @@
         >
           <i class="fab fa-twitter"></i>
         </button>
+        <!-- New quote btn -->
         <button
           class="quote-container__buttons__new-quote"
           id="new-quote"
@@ -47,6 +51,11 @@
         </button>
       </div>
     </div>
+
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+
+    <!-- JS -->
     <script src="script.js"></script>
   </body>
 </html>

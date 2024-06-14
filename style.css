@@ -81,12 +81,38 @@ button:active {
   color: #38a1f3;
 }
 
-/* Media query: Tablet or smaller */
-@media screen and (max-width: 1000px) {
+/* Loader */
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #5a5a5a;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 675px) {
   .quote-container {
     margin: auto 10px;
   }
 
+  .quote-container__quote {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media query: Tablet or smaller */
+@media screen and (min-width: 676px) and (max-width: 1000px) {
   .quote-container__quote {
     font-size: 2.5rem;
   }
