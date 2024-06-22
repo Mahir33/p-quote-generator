@@ -15,13 +15,6 @@ The Quote Generator is a web application that serves up random quotes to users, 
 1. **Viewing a Quote:** Upon loading the application, users are presented with a basic quote. A new random quote can be displayed by clicking the "New Quote" button.
 2. **Sharing a Quote:** Users can share a quote on Twitter by clicking the Twitter icon button. This action opens Twitter in a new tab, with a pre-filled tweet containing the quote and its author, ready for sharing.
 
-### Lighthouse Score
-
-- **Performance**: 99
-- **Accessibility**: 100
-- **Best Practices**: 78
-- **SEO**: 100
-
 ### Technologies Used
 
 The project leverages several key technologies:
